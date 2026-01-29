@@ -38,7 +38,6 @@ def get_plasmid(fastafile, designfile):
 
 
 if __name__ == "__main__":
-    # sys.argv check: script name + 2 arguments = 3 total
     if len(sys.argv) != 3:
         print("Usage: python script.py <fasta_file> <design_file>")
         sys.exit(1)
